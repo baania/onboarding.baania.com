@@ -1,11 +1,11 @@
 {
   "index_name": "docusaurus-2",
   "start_urls": [
-    "https://onboarding.karnwong.me"
+    "https://onboarding.baania.com"
   ],
-  "allowed_domains": ["onboarding.karnwong.me"],
+  "allowed_domains": ["onboarding.baania.com"],
   "sitemap_urls": [
-    "https://onboarding.karnwong.me/sitemap.xml"
+    "https://onboarding.baania.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

@@ -1,17 +1,17 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Fringe Division',
+  title: 'Baania',
   // tagline: 'The tagline of my site',
-  url: 'https://onboarding.karnwong.me',
+  url: 'https://onboarding.baania.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'kahnwong', // Usually your GitHub org/user name.
+  organizationName: 'baania', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Docs',
+      title: 'Onboarding',
       logo: {
         alt: 'My Site Logo',
         src: 'img/baania-logo.png',
@@ -24,7 +24,7 @@ module.exports = {
         //   position: 'left',
         // },
         {
-          href: 'https://github.com/kahnwong/onboarding.karnwong.me',
+          href: 'https://github.com/baania/onboarding.baania.com',
           label: 'GitHub',
           position: 'right',
         },
@@ -49,7 +49,7 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Fringe Division. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Baania. Built with Docusaurus.`,
     },
     algolia: {
       apiKey: '9d620a41955bc610c22becd302e12a22',
@@ -69,7 +69,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/kahnwong/onboarding.karnwong.me/edit/master/',
+            'https://github.com/baania/onboarding.baania.com/edit/master/',
           routeBasePath: '/'
         },
         theme: {

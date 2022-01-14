@@ -2,8 +2,8 @@
 
 ## todo
 - [x] add edit on github
-- [ ] update taglines and footers
-- [ ] switch out github repo
+- [x] update taglines and footers
+- [x] switch out github repo
 - [ ] switch out algolia key
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.

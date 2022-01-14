@@ -31,7 +31,7 @@ jobs:
     ################################
     - run: |
         npm run build
-        echo "onboarding.karnwong.me" > build/CNAME
+        echo "onboarding.baania.com" > build/CNAME
 
     - name: Deploy site
       with:
