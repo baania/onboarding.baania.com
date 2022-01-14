@@ -18,3 +18,6 @@ https://github.com/baania/setup-new-computer-script
 
 **Production**
 - This is used for deployment of production data and service (the one we cannot lose or be unavailable)
+
+## Resources
+- [Cheatsheets](https://github.com/baania/cheatsheets)

@@ -11,8 +11,11 @@ Clone this [repo](https://github.com/baania/dagster) to try
 ```bash
 $ cd environments
 
+# Encrypt
+$ sops -e secrets.json > secrets.sops.json
+
 # Decrypt
-$ sops -d secrets.sops.json
+$ sops -d secrets.sops.json > secrets.json
 
 # Edit encrypted file in place
 $ sops secrets.sops.json

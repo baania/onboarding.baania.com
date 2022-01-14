@@ -2,6 +2,7 @@ module.exports = {
     docs: [
         "docs/first-day-aml",
         "docs/onboarding-plan",
+        "docs/git-flow",
         {
             type: "category",
             label: "Platform",
