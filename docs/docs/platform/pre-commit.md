@@ -8,6 +8,9 @@ Base config: https://github.com/baania/dagster/blob/master/.pre-commit-config.ya
 
 ## Usage
 ```bash
+# init for newly cloned repo / pre-commit config update
+$ pre-commit install
+
 # run pre-commit hooks for all files in folder
 $ pre-commit run --files **/*.*
 
