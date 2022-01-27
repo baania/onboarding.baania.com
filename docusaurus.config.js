@@ -9,6 +9,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'baania', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: 'Onboarding',
@@ -78,7 +79,6 @@ module.exports = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: false,
         },
       },
     ],
