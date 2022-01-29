@@ -2,88 +2,69 @@
 title: Docker
 ---
 
-## Docker commands
+## Install
 ```bash
-docker pull python:3.7
+$ brew install --cask docker
+```
 
-docker run --rm python:3.7 "ls"
-docker run --rm -it python:3.7 /bin/bash
+## Resources
+- [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
+- [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.
+- [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
 
+
+## Usage
+```bash
+# pull image and run stuff through it
+docker pull IMAGE_NAME
+docker run -v $(pwd):/outputs -it IMAGE_NAME /bin/bash /outputs/build.sh
+
+# ssh into image
+docker run -it REPOSITORY
+
+# re-attach container
+docker exec -it 3dbcd9237a43 /bin/bash
+
+# list images
 docker images
-docker container
-```
 
-## Building
-```dockerfile title="Dockerfile"
-FROM python:3.7
-
-RUN pip install fastapi[all]
-
-WORKDIR /app
-COPY * ./
-
-EXPOSE 8000
-ENTRYPOINT ["uvicorn", "main:app", "--reload", "--host", "0.0.0.0"]
-```
-
-```python title="main.py"
-from fastapi import FastAPI
-import redis
-
-app = FastAPI()
-
-
-@app.get("/")
-async def root():
-    #r = redis.Redis(host='redis', port=6379, db=0)
-    #r.set("key", "value")
-
-    return {"message": "Hello World"}
-```
-
-### Commands
-```bash
-docker build . -t myimages
-docker run --rm -p 8000:8000 myimage
-docker run --rm -p 8000:8000 -v /Users/vpanusuwan/projects/docker-demo:/app myimage
-
+# list containers
 docker ps
-docker exec -it 0dbd899f1538 /bin/bash
+
+# list all containers
+docker ps -a
+
+# docker stop
+docker stop CONTAINER_ID
+
+# remove image
+docker rmi node IMAGE ID
+
+# transfer file
+docker cp CONTAINER_ID:DOCKER_PATH_TO_ZIP_FILE LOCAL_PATH
+
+# forward port
+docker run -it -p ON_HOST_PORT:IN_CONTAINER_PORT baania/pyspark
+
+# prune
+docker system prune
+
+# create and attach volume
+docker volume create --name hello
+docker run -d -v hello:/container/path/for/volume container_image my_command
 ```
 
-## Compose
-```yaml title="docker-compose.yml"
-version: "3"
+### docker-compose
+```yaml
+version: '3'
 services:
-  main:
-    image: myimage
-    #build: .
-    volumes:
-    - ".:/app"
+  jupyter:
+    image: jupyter/pyspark-notebook:latest
     ports:
-    - "8000:8000"
-  redis:
-    image: "redis:6.0.8"
-```
-
-### Commands
-```bash
-docker-compose build
-docker-compose up
-docker-compose ps
-docker-compose exec main /bin/bash
-```
-
-## Hub
-```bash
-docker tag myimage docker.io/varokas/myimage:0.01
-docker login
-docker push docker.io/varokas/myimage:0.01
-```
-
-## Login to private repo
-```bash
-docker pull $AWS_ACCOUNT_ID.dkr.ecr.ap-southeast-1.amazonaws.com/$IMAGE_NAME:$TAG
-
-aws ecr --region ap-southeast-1 --profile $PROFILE_NAME get-login-password | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.ap-southeast-1.amazonaws.com
+    - "8888:8888"
+    - "4040:4040"
+    volumes:
+    - .:/home/jovyan
+    environment:
+    - JUPYTER_ENABLE_LAB=yes
 ```
