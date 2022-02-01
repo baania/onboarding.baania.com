@@ -21,3 +21,6 @@ https://github.com/baania/setup-new-computer-script
 
 ## Resources
 - [Cheatsheets](https://github.com/baania/cheatsheets)
+- [SQL tutorial](https://mode.com/sql-tutorial/)
+- [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide)
+- [Twelve Quick Tips for Software Design](https://github.com/gvwilson/12-design) - Ten Quick Software Design Tips for Data Scientists.
