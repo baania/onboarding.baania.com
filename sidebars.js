@@ -2,13 +2,21 @@ module.exports = {
     docs: [
         "docs/first-day-aml",
         "docs/onboarding-plan",
-        "docs/git-flow",
+        {
+            type: "category",
+            label: "Git",
+            collapsed: false,
+            items: [
+                "docs/git/git",
+                "docs/git/git-flow",
+                "docs/git/git-trunk",
+            ],
+        },
         {
             type: "category",
             label: "Platform",
             collapsed: false,
             items: [
-                "docs/platform/git",
                 "docs/platform/sops",
                 "docs/platform/pre-commit",
                 "docs/platform/pyenv-pipenv",

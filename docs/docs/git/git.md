@@ -3,9 +3,9 @@ title: Git
 ---
 
 ### Resources
+- [Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 - [Git Explorer](https://gitexplorer.com)
 - [Oh Shit, Git!?!](https://ohshitgit.com)
-- [Trunk Based Development](https://trunkbaseddevelopment.com)
 
 
 ## Usage
