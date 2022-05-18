@@ -1,6 +1,5 @@
 ---
 title: First day AML
-slug: /
 ---
 
 Welcome to Baania's AML! This tutorial is created to help you onboard AML.

@@ -1,7 +1,16 @@
 module.exports = {
     docs: [
-        "docs/first-day-aml",
+        "docs/about",
         "docs/onboarding-plan",
+        {
+            type: "category",
+            label: "First-day",
+            collapsed: false,
+            items: [
+                "docs/first-day/first-day-aml",
+                "docs/first-day/first-day-dev",
+            ],
+        },
         {
             type: "category",
             label: "Git",
