@@ -2,7 +2,7 @@
 title: Onboarding plan
 ---
 
-
+#Data Team
 ## Tools
 - Set up AWS CLI
 - SOPS tutorial + secrets sharing via encrypted pastebin
@@ -33,3 +33,7 @@ title: Onboarding plan
   - sparksql
   - sparkML+pipelines
 - remote vscode into lab
+
+
+#Dev Team
+## Please follow first day developer
