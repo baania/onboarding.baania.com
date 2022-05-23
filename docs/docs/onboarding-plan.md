@@ -36,4 +36,4 @@ title: Onboarding plan
 
 
 # Dev Team
-## Please follow first day developer
+- Please follow first day developer
