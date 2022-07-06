@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkonboarding_baania=self.webpackChunkonboarding_baania||[]).push([[640],{7085:function(a){a.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);
