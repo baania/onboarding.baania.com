@@ -39,19 +39,19 @@ Create with item id, then it will automatically link new branch to the ticket wh
 ## Release tag label
 
 
-| Product              | Tag-<version> |
-|----------------------|---------------|
-| Baania               | BN            |
-| Baania Manage        | BNM           |
-| Baania Data Op       | BND           |
-| Baania Search Ads    | BNS           |
-| Bestimate Corporate  | BTC           |
-| Bestimate Individual | BTI           |
-| Bestimate Admin      | BTA           |
-| Prop2Share           | P2S           |
-| Prop2Share Admin     | P2SA          |
-| Data Pool            | DP            |
-| Data Pool Admin      | DPA           |
+| Product              | Tag-\<version\> |
+|----------------------|-----------------|
+| Baania               | BN              |
+| Baania Manage        | BNM             |
+| Baania Data Op       | BND             |
+| Baania Search Ads    | BNS             |
+| Bestimate Corporate  | BTC             |
+| Bestimate Individual | BTI             |
+| Bestimate Admin      | BTA             |
+| Prop2Share           | P2S             |
+| Prop2Share Admin     | P2SA            |
+| Data Pool            | DP              |
+| Data Pool Admin      | DPA             |
 
 
 ## Creating Deployment For production
