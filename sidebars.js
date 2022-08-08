@@ -44,6 +44,15 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Developers",
+      collapsed: false,
+      items: [
+        "docs/developers/working-methodology",
+        "docs/developers/bug-reports",
+      ],
+    },
+    {
+      type: "category",
       label: "Misc",
       collapsed: false,
       items: ["docs/misc/aws", "docs/misc/terraform", "docs/misc/unix"],
