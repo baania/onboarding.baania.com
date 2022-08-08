@@ -3,12 +3,12 @@ title: Bug report Guideline
 ---
 
 ### Sample template
-Bug Title:
-Step to reproduce:
-Actual result:
-Expected result:
-Effect version:
-Fix in version:
+Bug Title:  
+Step to reproduce:  
+Actual result:  
+Expected result:  
+Effect version:  
+Fix in version:  
 
 ## Short summary (Bug Title)
 
