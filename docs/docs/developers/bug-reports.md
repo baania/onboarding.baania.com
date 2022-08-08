@@ -73,8 +73,9 @@ Examples:
 “The Products in Favorites not displayed”
  - This Expected Results example is not good enough because it doesn’t provide any details as to what is expected to happen;
  - You should also answer the question: “Why shouldn’t the Products be displayed anymore?”;
+
 **Good:**
- - “The Products from “Favorites” shouldn’t be displayed after removing them.”
+“The Products from “Favorites” shouldn’t be displayed after removing them.”
 
 **We advise being as specific as possible in filling the required fields.**
 

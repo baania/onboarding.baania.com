@@ -10,7 +10,7 @@ Voting point:
 - 1 point = 1 manday
 - 1 sprint has 5 mandays
 
-** So 1 dev can work upto 5 points.
+So 1 dev can work upto 5 points.
 Ref: https://www.visual-paradigm.com/scrum/what-is-story-point-in-agile/
 
 ## How to manage tasks on Monday?
