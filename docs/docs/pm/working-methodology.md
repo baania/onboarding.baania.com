@@ -1,4 +1,3 @@
-
 ---
 title: Working Methodology
 ---
@@ -38,13 +37,13 @@ Ready to Start - PM could confirm that the feature has been research before maki
 3. Overall customer journey (In general is fine to start)
 4. Budget of this project (e.g. Expected to be less than $100)
 5. When should it be done? Why? (Please check over timeline as well)
-6. Feature highlight 
+6. Feature highlight
 7. Target customer
 8. Over all KPI of the feature (If the epic separate by phase please at lease indicate KPI when it is completely done)
 
 Ready to Dev - the material is ready for dev to start
 
-1. User Flow 
+1. User Flow
 2. **PM** and **Dev** have done high level Estimation for this Epic (Once ready it is possible for Backend to prepare)
 3. UX/UI Design (Only when it is done Front end can start)
 
