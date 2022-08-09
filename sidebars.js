@@ -5,18 +5,35 @@ module.exports = {
     {
       type: "category",
       label: "First-day",
-      collapsed: false,
+      collapsed: true,
       items: ["docs/first-day/first-day-aml", "docs/first-day/first-day-dev"],
     },
     {
       type: "category",
-      label: "Git",
+      label: "Product Manager",
       collapsed: false,
       items: [
-        "docs/git/intro",
-        "docs/git/git",
-        "docs/git/git-flow",
-        "docs/git/git-trunk",
+        "docs/pm/working-methodology",
+      ],
+    },
+    {
+      type: "category",
+      label: "Developers",
+      collapsed: false,
+      items: [
+        "docs/developers/working-methodology",
+        "docs/developers/bug-reports",
+      ],
+    },
+    {
+      type: "category",
+      label: "Data science",
+      collapsed: false,
+      items: [
+        "docs/data-science/gis",
+        "docs/data-science/postgis",
+        "docs/data-science/postgres",
+        "docs/data-science/pyspark",
       ],
     },
     {
@@ -33,28 +50,22 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Data science",
-      collapsed: false,
+      label: "Git",
+      collapsed: true,
       items: [
-        "docs/data-science/gis",
-        "docs/data-science/postgis",
-        "docs/data-science/postgres",
-        "docs/data-science/pyspark",
+        "docs/git/intro",
+        "docs/git/git",
+        "docs/git/git-flow",
+        "docs/git/git-trunk",
       ],
     },
-    {
-      type: "category",
-      label: "Developers",
-      collapsed: false,
-      items: [
-        "docs/developers/working-methodology",
-        "docs/developers/bug-reports",
-      ],
-    },
+
+
+
     {
       type: "category",
       label: "Misc",
-      collapsed: false,
+      collapsed: true,
       items: ["docs/misc/aws", "docs/misc/terraform", "docs/misc/unix"],
     },
   ],
