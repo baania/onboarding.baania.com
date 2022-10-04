@@ -3,12 +3,15 @@ title: PostGIS
 ---
 
 ## Init
+
 ```sql
 CREATE EXTENSION postgis;
 ```
 
 ## SQL
+
 ### Add GEOM column
+
 ```sql
 -- use `ST_GeomFromText` for `WKT`
 ALTER TABLE province ADD COLUMN geom geometry(Point, 4326);
@@ -24,6 +27,7 @@ WHERE latitude IS NOT NULL AND longitude IS NOT NULL;
 ```
 
 ### Cast projection unit to meter
+
 ```sql
 ST_Distance(
     geom::geography,
@@ -31,6 +35,7 @@ ST_Distance(
 ```
 
 ### Find polygon from point
+
 ```sql
 -- single point
 ST_DWithin(ST_SetSRID(ST_POINT(longitude,latitude),4326)::geography, geom,0)
@@ -43,8 +48,9 @@ LIMIT 10;
 ```
 
 ### Find distance betwee x & y
+
 ```sql
--- unit depends on projection, in which `WGS4826` is `meter`
+-- unit depends on projection
 ST_Distance(
     the_geom::geography,
     ST_MakePoint(longitude,latitude)::geography)
@@ -52,6 +58,7 @@ AS distance_from_holy_land
 ```
 
 ### Count points in polygon
+
 ```sql
 SELECT boundary.gid, count(points.geom) AS totale
 FROM boundary LEFT JOIN points

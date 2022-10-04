@@ -2,38 +2,27 @@
 title: Onboarding plan
 ---
 
-# Data Team
-## Tools
-- Set up AWS CLI
-- SOPS tutorial + secrets sharing via encrypted pastebin
+## Base
 
-## Git
-- Create repo on Github
-- `.gitignore`
-- Git flow tutorial
-- pre-commit
-- CI/CD
-- (optional) gh cli
+- Git workflow
+- Database internals + SQL
+- Docker
 
-## Python
+## Data team
+
+### Python
+
+- pyenv + pipenv
 - pytest
-- pyenv+pipenv
 
-## Data science
-- sql
-- sklearn model
-- mlapi-base
+### Data platform
 
-## Platform
-- lambda deployment + cloudwatch
-- docker
-- dagster
-  - PysparkDataFrame
-  - mlflow
-  - sparksql
-  - sparkML+pipelines
-- remote vscode into lab
+- dagster.PysparkDataFrame
+- mlflow
+- pyspark
 
+## Dev Team
 
-# Dev Team
-- Please follow first day developer
+- Quasar
+- IntelliJ
+- TypeORM

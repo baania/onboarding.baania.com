@@ -2,19 +2,12 @@ module.exports = {
   docs: [
     "docs/about",
     "docs/onboarding-plan",
-    {
-      type: "category",
-      label: "First-day",
-      collapsed: true,
-      items: ["docs/first-day/first-day-aml", "docs/first-day/first-day-dev"],
-    },
+    "docs/first-day",
     {
       type: "category",
       label: "Product Manager",
       collapsed: false,
-      items: [
-        "docs/pm/working-methodology",
-      ],
+      items: ["docs/pm/working-methodology"],
     },
     {
       type: "category",
@@ -28,30 +21,18 @@ module.exports = {
     {
       type: "category",
       label: "Data science",
-      collapsed: false,
+      collapsed: true,
       items: [
         "docs/data-science/gis",
+        "docs/data-science/jupyter",
         "docs/data-science/postgis",
-        "docs/data-science/postgres",
         "docs/data-science/pyspark",
       ],
     },
     {
       type: "category",
-      label: "Platform",
-      collapsed: false,
-      items: [
-        "docs/platform/sops",
-        "docs/platform/pre-commit",
-        "docs/platform/pyenv-pipenv",
-        "docs/platform/docker",
-        "docs/platform/kubernetes",
-      ],
-    },
-    {
-      type: "category",
       label: "Git",
-      collapsed: true,
+      collapsed: false,
       items: [
         "docs/git/intro",
         "docs/git/git",
@@ -59,14 +40,26 @@ module.exports = {
         "docs/git/git-trunk",
       ],
     },
-
-
-
+    {
+      type: "category",
+      label: "Platform",
+      collapsed: true,
+      items: [
+        "docs/platform/sops",
+        "docs/platform/docker",
+        "docs/platform/kubernetes",
+      ],
+    },
     {
       type: "category",
       label: "Misc",
       collapsed: true,
-      items: ["docs/misc/aws", "docs/misc/terraform", "docs/misc/unix"],
+      items: [
+        "docs/misc/sql",
+        "docs/misc/aws",
+        "docs/misc/terraform",
+        "docs/misc/unix",
+      ],
     },
   ],
   // references: [

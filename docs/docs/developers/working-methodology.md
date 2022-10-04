@@ -26,9 +26,9 @@ Ref: https://www.visual-paradigm.com/scrum/what-is-story-point-in-agile/
 | Test fail          | Found bug, assign back to **dev**                                            |
 | Done               | **QA** move to done, dev and test done.                                      |
 
-**Test link:** link on dev site  
-**Release link:** link when create PR to master  
-**Release tag:** Release version to Production, add tag when merge to master ex. BN-0.0.0  (see tag label below)  
+**Test link:** link on dev site
+**Release link:** link when create PR to master
+**Release tag:** Release version to Production, add tag when merge to master ex. BN-0.0.0  (see tag label below)
 
 ## When create new branch
 
