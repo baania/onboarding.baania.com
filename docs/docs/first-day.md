@@ -10,11 +10,24 @@ title: First day
 
 ### Accounts
 
-- GitHub - Add on terraform
-- Gmail - [Link to add user](https://admin.google.com/ac/users?hl=en)
-- Discord
-- Monday [Link to add user](https://baania-squad.monday.com/teams/all)
-- Grafana (do it later)
+| Service                                              | Team       | Granted by     |
+| ---------------------------------------------------- | ---------- | -------------- |
+| LINE                                                 | ALL        | HR             |
+| DingTalk                                             | ALL        | HR             |
+| [Google](https://admin.google.com/ac/users?hl=en)    | ALL        | HR / Team Lead |
+| [Monday](https://baania-squad.monday.com/teams/all)  | ALL        | Team Lead      |
+| Discord                                              | ALL        | Team Lead      |
+| Bitbucket                                            | Dev        | Team Lead      |
+| Dev databases                                        | Dev        | Team Lead      |
+| GitHub                                               | Dev / Data | Platform       |
+| AWS                                                  | Dev / Data | Platform Team  |
+| DMP DB                                               | ALL        | Platform Team  |
+| Bastion Host (SSH key is generated via setup script) | ALL        | Platform Team  |
+| Grafana                                              | ALL        | Platform Team  |
+
+**IMPORTANT:** requests involving platform team need to be informed at least one week in advance. It will _not_ be granted on the request date.
+
+Note: in case of switching a machine, `~/.ssh` should be transferred to the new machine as well.
 
 ### IntelliJ config (dev only)
 
