@@ -19,7 +19,7 @@ title: First day
 | Discord                                              | ALL        | Team Lead      |
 | Bitbucket                                            | Dev        | Team Lead      |
 | Dev databases                                        | Dev        | Team Lead      |
-| GitHub                                               | Dev / Data | Platform       |
+| GitHub                                               | Dev / Data | Platform Team  |
 | AWS                                                  | Dev / Data | Platform Team  |
 | DMP DB                                               | ALL        | Platform Team  |
 | Bastion Host (SSH key is generated via setup script) | ALL        | Platform Team  |
