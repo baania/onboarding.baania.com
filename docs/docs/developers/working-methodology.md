@@ -4,13 +4,17 @@ title: Working Methodology
 
 ## Grooming session
 
-After requirements are confirmed with PM, tickets can be groom with team.
-Voting point:
+After requirements are confirmed with PM, tickets can be groom with team. After grooming, all ticket should be ready for development.
 
+
+## Planning session
+- 1 sprint = 2 weeks
+- 7 days for implementation and 3 days for testing
+
+## Voting points
 - 1 point = 1 manday
-- 1 sprint has 5 mandays
 
-So 1 dev can work upto 5 points.
+So 1 dev can work upto 7 points per sprint.
 Ref: https://www.visual-paradigm.com/scrum/what-is-story-point-in-agile/
 
 ## How to manage tasks on Monday?
@@ -23,8 +27,9 @@ Ref: https://www.visual-paradigm.com/scrum/what-is-story-point-in-agile/
 | Request change     | Code review failed, assign back to **dev**                                   |
 | Ready for test     | Code merged to **dev**, assigned to dev to recheck if merging is successful. |
 | QA in progress     | Assign to **QA** to Functionality on dev site                                |
-| Test fail          | Found bug, assign back to **dev**                                            |
-| Done               | **QA** move to done, dev and test done.                                      |
+| Test failed          | Found bug, assign back to **dev**                                            |
+| Ready to release   | **QA** test done and ticket ready to release.                                      |
+| Done               | Ticket released to production                                      |
 
 **Test link:** link on dev site
 **Release link:** link when create PR to master

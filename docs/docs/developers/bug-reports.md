@@ -1,14 +1,26 @@
 ---
 title: Bug report Guideline
 ---
+**Bug of a feature:** Report as a subtask of a feature.
 
-### Sample template
-Bug Title:
-Step to reproduce:
-Actual result:
-Expected result:
-Effect version:
-Fix in version:
+**Found bug during regression or known bug:** Create bug under backlog and default assign to dev lead.
+
+## Sample template
+**Title:** [ProductName][Bug] Short desc about bug
+
+**Steps to reproduce:** describe how to found this bug in steps, please also provide the link or account details if possible
+
+**Actual Result:** what actually happened
+
+**Expected Result:** what should be the result
+
+**Severity :** Critical (Need to fix immediately)/ High
+(Need to fix as soon as possible)
+/ Medium  (Need to fix but not urgent)/ Low  (Nice to be fixed)
+
+**Device :** the device which found bugs/issues ex. Labtop Acer/ iPhone 13 etc.
+
+**Browser:** Browser which found bugs/issues ex. google chrome/ Safari
 
 ## Short summary (Bug Title)
 
